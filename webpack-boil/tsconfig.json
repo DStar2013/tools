@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "declaration": false,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "lib": ["dom", "es2015", "es2016", "es2017", "esnext"],
+    "module": "esNext",
+    "moduleResolution": "node",
+    "paths": {
+      "~/*": ["./*"]
+    },
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5",
+    "typeRoots": ["./node_modules/@types", "./@types", "../packages/*/@types"]
+  },
+  "compileOnSave": false,
+  "include": ["src/**/*", "packages/**/*"]
+}

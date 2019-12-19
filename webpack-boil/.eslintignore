@@ -1,0 +1,9 @@
+config/
+dist/
+docs/
+node_modules/
+lib/
+webpack/
+scripts/
+packages/*/lib/
+babel.config.js
